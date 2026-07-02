@@ -1,16 +1,64 @@
-# React + Vite
+# React Learning 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository documents my React learning journey using **React** and **Vite**.
 
-Currently, two official plugins are available:
+## 📚 Learning Roadmap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### ✅ Completed
 
-## React Compiler
+- JSX
+- Components
+  - What is a Component
+  - Functional Components
+  - Creating Components
+  - Reusable Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ⏳ Upcoming
 
-## Expanding the ESLint configuration
+- Props
+- useState
+- Event Handling
+- Conditional Rendering
+- Lists & Keys
+- Forms
+- useEffect
+- API Integration
+- React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 🎯 Purpose
+
+This repository contains my React practice, coding exercises, notes, and mini projects while learning modern React development following an 80/20 learning approach.
+
+---
+
+## 📁 Project Structure
+
+```text
+src
+│
+├── components
+├── App.jsx
+├── main.jsx
+└── assets
+```
+
+---
+
+## 🚀 Author
+
+**Suraj Kumar Dalai**
+
+GitHub:
+https://github.com/SurajKumarDalai
