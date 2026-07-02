@@ -9,9 +9,9 @@ function App(){
     <Navbar />
     <Hero />
     <Footer />
-    <Button />
-    <Button />
-    <Button />
+    <Button text = "Login" />
+    <Button text = "Register" />
+    <Button text = "Logout" />
     </>
   );
 }
