@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Button from "./components/Button";
 import Employee from "./components/Employee";
 import Product from "./components/Product";
+import List from "./components/List";
 
 function App(){
 
@@ -20,6 +21,10 @@ function App(){
       brand : "Apple"
     };
 
+    const fruits = ["Apple",
+    "Banana",
+    "Mango"];
+
   return(
     <>
     <Navbar />
@@ -32,6 +37,8 @@ function App(){
     <Employee employee = {employee}/>
 
     <Product product = {product}/>
+
+    <List fruits = {fruits}/>
     </>
     );
     
