@@ -1,11 +1,11 @@
-function Employee ({name, company, salary, city}){
+function Employee ({employee}){
     return(
         <>
         <h2>Employee Details</h2>
-        <p>Name : {name}</p>
-        <p>Company : {company}</p>
-        <p>Salary : ₹{salary}</p>
-        <p>City : {city}</p>
+        <p>Name : {employee.name}</p>
+        <p>Company : {employee.company}</p>
+        <p>Salary : ₹{employee.salary}</p>
+        <p>City : {employee.city}</p>
         </>
     );
 }

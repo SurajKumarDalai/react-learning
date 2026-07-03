@@ -5,6 +5,14 @@ import Button from "./components/Button";
 import Employee from "./components/Employee";
 
 function App(){
+
+  const employee = {
+    name: "Suraj Kumar Dalai",
+    company: "OpenAI",
+    salary: 5000,
+    city:"Hyderbad"
+    };
+
   return(
     <>
     <Navbar />
@@ -13,13 +21,10 @@ function App(){
     <Button text = "Login" />
     <Button text = "Register" />
     <Button text = "Logout" />
-    <Employee 
-    name="Suraj Kumar Dalai"
-    company="OpenAI"
-    salary={5000}
-    city="Hyderbad"
-    />
+
+    <Employee employee = {employee}/>
     </>
-  );
+    );
+    
 }
 export default App;
