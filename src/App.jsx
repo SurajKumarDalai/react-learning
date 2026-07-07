@@ -5,6 +5,8 @@ import Button from "./components/Button";
 import Employee from "./components/Employee";
 import Product from "./components/Product";
 import List from "./components/List";
+import StudentList from "./components/StudentList";
+import MovieList from "./components/MovieList";
 
 function App(){
 
@@ -23,7 +25,44 @@ function App(){
 
     const fruits = ["Apple",
     "Banana",
-    "Mango"];
+    "Mango",
+    "Orange"];
+
+    const students = [
+      {
+        id: 1,
+        name: "Suraj",
+        marks: 95
+      },
+      {
+        id: 2,
+        name: "Rahul",
+        marks: 88
+      },
+      {
+        id: 3,
+        name: "Ankit",
+        marks: 91
+      }
+    ];
+
+    const movies = [
+      {
+        id: 1,
+        title: "Interstellar",
+        rating: 8.7
+      },
+      {
+        id: 2,
+        title: "Inception",
+        rating: 8.8
+      },
+      {
+        id: 3,
+        title: "Avatar",
+        rating: 7.9
+      }
+    ];
 
   return(
     <>
@@ -39,6 +78,10 @@ function App(){
     <Product product = {product}/>
 
     <List fruits = {fruits}/>
+
+    <StudentList students = {students}/>
+
+    <MovieList movies={movies}/>
     </>
     );
     
