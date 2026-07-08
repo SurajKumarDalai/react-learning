@@ -7,6 +7,7 @@ import Product from "./components/Product";
 import List from "./components/List";
 import StudentList from "./components/StudentList";
 import MovieList from "./components/MovieList";
+import Counter from "./components/Counter-State";
 
 function App(){
 
@@ -82,6 +83,8 @@ function App(){
     <StudentList students = {students}/>
 
     <MovieList movies={movies}/>
+
+    <Counter/>
     </>
     );
     
