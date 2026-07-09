@@ -8,6 +8,7 @@ import List from "./components/List";
 import StudentList from "./components/StudentList";
 import MovieList from "./components/MovieList";
 import Counter from "./components/Counter-State";
+import LikeButton from "./components/LikeButton";
 
 function App(){
 
@@ -85,6 +86,8 @@ function App(){
     <MovieList movies={movies}/>
 
     <Counter/>
+
+    <LikeButton/>
     </>
     );
     
