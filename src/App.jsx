@@ -10,6 +10,7 @@ import MovieList from "./components/MovieList";
 import Counter from "./components/Counter-State";
 import LikeButton from "./components/LikeButton";
 import Password from "./components/Password";
+import ThemeToggle from "./components/ThemeToggle";
 
 function App(){
 
@@ -90,6 +91,7 @@ function App(){
 
     <LikeButton/>
     <Password/>
+    <ThemeToggle/>
     </>
     );
     
