@@ -6,20 +6,43 @@ This repository documents my React learning journey using **React** and **Vite**
 
 ### ✅ Completed
 
-- JSX
-- Components
-  - What is a Component
-  - Functional Components
-  - Creating Components
-  - Reusable Components
+#### Module 1: JSX
+- JSX Syntax
+- Expressions in JSX
+- Curly Braces in JSX
+
+#### Module 2: Components
+- What is a Component
+- Functional Components
+- Creating Components
+- Reusable Components
+
+#### Module 3: Props
+- Passing Props
+- Props Destructuring
+- Passing Objects as Props
+- Passing Arrays as Props
+- Rendering Lists using map()
+- key Prop
+
+#### Module 4: useState
+- What is State?
+- useState Hook
+- Number State
+- Boolean State
+- String State
+- Counter Example
+- Like Button Example
+- Show/Hide Password Example
+- Theme Toggle Example
+- Input Handling
+- onChange Event
+- event.target.value
 
 ### ⏳ Upcoming
 
-- Props
-- useState
 - Event Handling
 - Conditional Rendering
-- Lists & Keys
 - Forms
 - useEffect
 - API Integration
