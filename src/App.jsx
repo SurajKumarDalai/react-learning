@@ -12,6 +12,9 @@ import LikeButton from "./components/LikeButton";
 import Password from "./components/Password";
 import ThemeToggle from "./components/ThemeToggle";
 import NameInput from "./components/NameInput";
+import NameForm from "./components/NameForm";
+import EmailForm from "./components/EmailForm";
+import SignupForm from "./components/SignupForm";
 
 function App(){
 
@@ -94,6 +97,9 @@ function App(){
     <Password/>
     <ThemeToggle/>
     <NameInput/>
+    <NameForm/>
+    <EmailForm/>
+    <SignupForm/>
     </>
     );
     
