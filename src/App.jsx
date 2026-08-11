@@ -15,6 +15,11 @@ import NameInput from "./components/NameInput";
 import NameForm from "./components/NameForm";
 import EmailForm from "./components/EmailForm";
 import SignupForm from "./components/SignupForm";
+import PasswordValaidation from "./components/PasswordValaidation";
+import AgeChecker from "./components/AgeChecker";
+import LoginForm from "./components/LoginForm";
+import ConfirmPassword from "./components/ConfirmPassword";
+import CharacterCount from "./components/CharacterCount";
 
 function App(){
 
@@ -97,9 +102,16 @@ function App(){
     <Password/>
     <ThemeToggle/>
     <NameInput/>
+
     <NameForm/>
     <EmailForm/>
     <SignupForm/>
+    <PasswordValaidation/>
+
+    <AgeChecker/>
+    <LoginForm/>
+    <ConfirmPassword/>
+    <CharacterCount/>
     </>
     );
     
