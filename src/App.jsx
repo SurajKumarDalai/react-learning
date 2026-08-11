@@ -20,6 +20,7 @@ import AgeChecker from "./components/AgeChecker";
 import LoginForm from "./components/LoginForm";
 import ConfirmPassword from "./components/ConfirmPassword";
 import CharacterCount from "./components/CharacterCount";
+import LiveNamePreview from "./components/LiveNamePreview";
 
 function App(){
 
@@ -112,6 +113,7 @@ function App(){
     <LoginForm/>
     <ConfirmPassword/>
     <CharacterCount/>
+    <LiveNamePreview/>
     </>
     );
     

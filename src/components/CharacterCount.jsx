@@ -1,6 +1,6 @@
 import {useState} from "react";
 
-function CharacterCount(){character
+function CharacterCount(){
 
     const[character, setCharacter]= useState("");
 
