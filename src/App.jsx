@@ -22,6 +22,15 @@ import ConfirmPassword from "./components/ConfirmPassword";
 import CharacterCount from "./components/CharacterCount";
 import LiveNamePreview from "./components/LiveNamePreview";
 
+import CharacterCounter from "./components/CharacterCounter";
+import PasswordStrength from "./components/PasswordStrength";
+import AgeCheck from "./components/AgeCheck";
+import EmailValidation from "./components/EmailValidation";
+import ConfirmPass from "./components/ConfirmPass";
+import LoginValidation from "./components/LoginValidation";
+import SearchBox from "./components/SearchBox";
+import TodoInput from "./components/TodoInput";
+
 function App(){
 
   const employee = {
@@ -114,6 +123,16 @@ function App(){
     <ConfirmPassword/>
     <CharacterCount/>
     <LiveNamePreview/>
+
+    <CharacterCounter/>
+
+    <PasswordStrength/>
+    <AgeCheck/>
+    <EmailValidation/>
+    <ConfirmPass/>
+    <LoginValidation/>
+    <SearchBox/>
+    <TodoInput/>
     </>
     );
     
