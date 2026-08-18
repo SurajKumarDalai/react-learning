@@ -30,6 +30,12 @@ import ConfirmPass from "./components/ConfirmPass";
 import LoginValidation from "./components/LoginValidation";
 import SearchBox from "./components/SearchBox";
 import TodoInput from "./components/TodoInput";
+import DarkMode from "./components/DarkMode";
+import CounterButtons from "./components/CounterButtons";
+import BIMcalculator from "./components/BIMcalculator";
+import TemperatureConverter from "./components/TemperatureConverter";
+import TipCalculator from "./components/TipCalculator";
+import WordCounter from "./components/WordCounter";
 
 function App(){
 
@@ -133,6 +139,14 @@ function App(){
     <LoginValidation/>
     <SearchBox/>
     <TodoInput/>
+
+    <DarkMode/>
+    <CounterButtons/>
+    <BIMcalculator/>
+
+    <TemperatureConverter/>
+    <TipCalculator/>
+    <WordCounter/>
     </>
     );
     
