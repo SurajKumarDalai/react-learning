@@ -36,6 +36,7 @@ import BIMcalculator from "./components/BIMcalculator";
 import TemperatureConverter from "./components/TemperatureConverter";
 import TipCalculator from "./components/TipCalculator";
 import WordCounter from "./components/WordCounter";
+import FeedbackForm from "./components/FeedbackForm";
 
 function App(){
 
@@ -147,6 +148,8 @@ function App(){
     <TemperatureConverter/>
     <TipCalculator/>
     <WordCounter/>
+
+    <FeedbackForm/>
     </>
     );
     
