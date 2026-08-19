@@ -37,6 +37,7 @@ import TemperatureConverter from "./components/TemperatureConverter";
 import TipCalculator from "./components/TipCalculator";
 import WordCounter from "./components/WordCounter";
 import FeedbackForm from "./components/FeedbackForm";
+import TodoList from "./components/TodoList";
 
 function App(){
 
@@ -150,6 +151,7 @@ function App(){
     <WordCounter/>
 
     <FeedbackForm/>
+    <TodoList/>
     </>
     );
     
