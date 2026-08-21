@@ -38,6 +38,7 @@ import TipCalculator from "./components/TipCalculator";
 import WordCounter from "./components/WordCounter";
 import FeedbackForm from "./components/FeedbackForm";
 import TodoList from "./components/TodoList";
+import QuizApp from "./components/QuizApp";
 
 function App(){
 
@@ -152,6 +153,8 @@ function App(){
 
     <FeedbackForm/>
     <TodoList/>
+
+    <QuizApp/>
     </>
     );
     
